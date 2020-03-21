@@ -21,7 +21,7 @@ public class Reader {
         //判断是否可读
         if(!file.canRead()){
             try {
-                throw new AddException("m没有读权限");
+                throw new AddException("没有读权限");
             }
             catch (AddException e){
                 e.printStackTrace();
